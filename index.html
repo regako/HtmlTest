@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메뉴 페이지</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+        }
+        .menu {
+            margin-bottom: 20px;
+        }
+        .menu a {
+            text-decoration: none;
+            color: blue;
+            font-size: 20px;
+        }
+        .menu a:hover {
+            text-decoration: underline;
+        }
+        .instructions {
+            font-size: 16px;
+            color: gray;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="instructions">
+        아래 링크를 클릭할 수 없는 경우, 링크를 복사하여 사용해 주세요:
+    </div>
+    <div class="menu">
+        <a href="iotplatform://categories?id=4172" onclick="return false;">카테고리 이동</a>
+        <p>iotplatform://categories?id=4172</p>
+    </div>
+    <div class="menu">
+        <a href="iotplatform://events?id=3" onclick="return false;">이벤트 이동</a>
+        <p>iotplatform://events?id=3</p>
+    </div>
+    <div class="menu">
+        <a href="iotplatform://orders?id=1" onclick="return false;">주문상세 이동</a>
+        <p>iotplatform://orders?id=1</p>
+    </div>
+</body>
+</html>
